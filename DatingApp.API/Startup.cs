@@ -38,6 +38,7 @@ namespace DatingApp.API
             (Configuration.GetConnectionString("DefaultConnection")));
             
             services.AddControllers().AddNewtonsoftJson();
+            
 
             services.AddCors();
 
